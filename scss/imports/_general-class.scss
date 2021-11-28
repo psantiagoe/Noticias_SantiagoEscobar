@@ -1,0 +1,31 @@
+@for $i from 1 through 10 {
+	@if $i == 10 {
+		.full-width {
+			width: 100%;
+		}
+	} @else {
+		.width-#{$i * 10} {
+			width: $i * 10%;
+		}
+	}
+}
+
+.margin-auto {
+	margin: auto;
+}
+
+.horizontally-align {
+	display: flex;
+	justify-content: center;
+}
+
+.vertically-align {
+	@extend .horizontally-align;
+	align-items: center;
+}
+
+.no-scale {
+	&:hover {
+		transform: scale(1);
+	}
+}

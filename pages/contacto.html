@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Contacto, Noticias, Envíanos tu noticia, Comentarios, Teléfono, Email, E-mail">
+    <meta name="description"
+        content="Envíanos tu noticia. Ponete en contacto con nosotros y te entrevistaremos en vivo.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Noticias - Contacto</title>
+</head>
+
+<body>
+    <header class="header margin-auto full-width">
+        <a href="/"><img src="../assets/images/Noticias-logos_white.png" alt="logo" class="header__logo" /></a>
+        <nav>
+            <div class="header__principal-menu">
+                <img src="../assets/images/menu-list-white.png" class="header__menu-img">
+                <ul class="header__list-principal-menu">
+                    <a href="../index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="../pages/ultimas-noticias.html">
+                        <li>Últimas Noticias</li>
+                    </a>
+                    <a href="../pages/redactores.html">
+                        <li>Nuestros redactores</li>
+                    </a>
+                    <a href="../index.html#suscripcion">
+                        <li>Suscripción</li>
+                    </a>
+                    <a href="../pages/contacto.html">
+                        <li>Contacto</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="margin-auto width-90">
+        <section class="contacto">
+            <h1 class="contacto__titulo contacto__titulo--primaryColor">ENVIANOS TU NOTICIA</h1>
+            <div class="horizontally-align">
+                <form action="" class="contacto__form width-70">
+                    <div class="mb-2">
+                        <label for="" class="contacto_label contacto_label--primaryColor form-label">Nombre y
+                            Apellido</label>
+                        <br>
+                        <input type="text" placeholder="Juan Carlos Gomez" class="form-control">
+                    </div>
+                    <div class="mb-2">
+                        <label for="" class="contacto_label contacto_label--primaryColor form-label">Telefono de
+                            contacto</label>
+                        <br>
+                        <input type="tel" placeholder="Ej. 011 4433-2211" pattern="[0]{1}[0-1]{2} [0-9]{4}-[0-9]{4}"
+                            class="form-control">
+                    </div>
+                    <div class="mb-2">
+                        <label for="" class="contacto_label contacto_label--primaryColor form-label">E-mail</label>
+                        <br>
+                        <input type="email" placeholder="Ej. ejemplo@mail.com" class="form-control">
+                    </div>
+                    <div class="mb-2">
+                        <input type="checkbox" name="" id="" class="form-check-input">
+                        <label for="" class="contacto_label contacto_label--primaryColor form-label">
+                            Desea ser contactado para una entrevista en vivo?
+                        </label>
+                    </div>
+                    <div class="mb-2">
+                        <textarea name="" id="" cols="50" rows="15" placeholder="Escribe aqui tu nota"
+                            class="form-control"></textarea>
+                    </div>
+                    <div class="mb-2">
+                        <label for="" class="contacto_label contacto_label--primaryColor form-label">
+                            Seleccione la categoria para su nota:
+                        </label>
+                        <select name="categoria" id="" class="form-select">
+                            <option value="mus">Musica</option>
+                            <option value="dep">Deportes</option>
+                            <option value="tec">Tecnologia</option>
+                            <option value="pol">Politica</option>
+                            <option value="eco">Economia</option>
+                            <option value="otr">Otra</option>
+                        </select>
+                    </div>
+                    <div class="horizontally-align contacto__btns mb-2">
+                        <input type="submit" class="btn btn-primary" value="ENVIAR">
+                        <input type="reset" class="btn btn-primary" value="BORRAR">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copy-right">&copy; 2021 - Copyright</p>
+        <div class="footer__rrss">
+            <a href="https://www.instagram.com/" target="_black">
+                <img src="../assets/images/instagram.png" alt="Instagram" class="footer__rrss-img">
+            </a>
+            <a href="https://twitter.com/" target="_black">
+                <img src="../assets/images/twitter.png" alt="Twitter" class="footer__rrss-img">
+            </a>
+            <a href="https://www.facebook.com/" target="_black">
+                <img src="../assets/images/facebook.png" alt="facebook" class="footer__rrss-img">
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
