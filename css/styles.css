@@ -408,4 +408,7 @@ h1 {
   .redactores .redactores__description {
     font-size: 0.8em; }
   .redactores .redactores__rrss .redactores__img-rrss {
-    width: 30px; } }
+    width: 30px; }
+  #back-to-start img {
+    left: 85%;
+    bottom: 10%; } }
