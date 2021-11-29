@@ -376,9 +376,9 @@ h1 {
     margin-top: 55px; }
   .ultimasNoticias__nota-img {
     width: 500px; }
-  .redactores__description {
+  .redactores .redactores__description {
     font-size: 1em;
-    overflow: scroll;
+    overflow-y: scroll;
     max-height: 300px; } }
 
 @media only screen and (max-width: 600px) {

@@ -499,10 +499,12 @@ h1 {
 		width: 500px;
 	}
 
-	.redactores__description {
-		font-size: 1em;
-		overflow: scroll;
-		max-height: 300px;
+	.redactores {
+		.redactores__description {
+			font-size: 1em;
+			overflow-y: scroll;
+			max-height: 300px;
+		}
 	}
 }
 
