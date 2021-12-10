@@ -372,7 +372,9 @@ div img:hover {
     width: 500px; }
   #back-to-start img {
     left: 90%;
-    bottom: 10%; } }
+    bottom: 10%; }
+  .error-page .error-img {
+    width: 350px; } }
 
 @media only screen and (max-width: 600px) {
   .instagram {
@@ -413,7 +415,11 @@ div img:hover {
   .destacadas .destacadas__img {
     width: 200px; }
   .ultimasNoticias__nota-img {
-    width: 300px; } }
+    width: 300px; }
+  .error-page .error-img {
+    display: block;
+    margin: auto;
+    width: 350px; } }
 
 @media screen and (max-width: 425px) {
   table,
@@ -446,4 +452,14 @@ div img:hover {
     font-size: 0.8em; }
   #back-to-start img {
     width: 40px;
-    opacity: 0.5; } }
+    opacity: 0.5; }
+  .error-page .error-img {
+    display: block;
+    margin: auto;
+    width: 250px; }
+  .error-page .error-title {
+    font-size: 1.8em; }
+  .error-page .return-btn {
+    font-size: 0.8em;
+    width: 110px;
+    height: 40px; } }
